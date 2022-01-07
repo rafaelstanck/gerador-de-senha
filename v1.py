@@ -1,7 +1,6 @@
 """
 Gerador de senha versão 1.0
 Senha de 8 dígitos contendo letras minúsculas, maiúsculas, números e caracteres especiais.
-teste
 """
 from random import choice, randint, shuffle
 
