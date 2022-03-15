@@ -1,6 +1,6 @@
 """
 Gerador de Senha Versão 2.0
-Gera senhas de forma customizada, podendo ser apenas números, letras, caracteres especiais ou tudo junto.
+Gera senhas de forma customizada, podendo definir a quantidade de letras, números e caracteres especiais.
 """
 from random import choice, shuffle
 
@@ -33,5 +33,5 @@ def gerasenha(a=3, b=3, c=3):
     return ''.join(senha)  # returna a senha no formato de uma string
 
 
-senhanova = gerasenha(0, 0, 6)
+senhanova = gerasenha(5, 5, 5)
 print(senhanova)
