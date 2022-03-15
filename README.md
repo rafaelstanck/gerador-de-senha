@@ -1,5 +1,5 @@
 # Gerador de Senhas
- Script para gerar senhas
+ Código para gerar senhas
  
  Versão 1.0: Senha de 8 dígitos contendo letras minúsculas, maiúsculas, números e caracteres especiais.
  
